@@ -9,8 +9,8 @@ import numpy as np
 # Extract the data
 
 country_list = ["Bolivia", "Burundi", "Canada", "Chad", "Indonesia", "Mexico", "Niger", "Philippines", "United States"]
-begin_date = 1960
-end_date = 2019
+begin_date = 2005
+end_date = 2020
 nb_dates = end_date - begin_date + 1
 
 attribute_names = ["Adults_Living_With_HIV",

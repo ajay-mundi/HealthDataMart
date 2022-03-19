@@ -1,0 +1,91 @@
+Event_Key,Year_Ref,Disaster_Subgroup,Disaster_Type,Disaster_Subtype,Country_Name,Start_Month,End_Month,Start_Year,End_Year,Total_Deaths,Total_Injuries,Total_Homeless,Total_Affected
+0,2013,Hydrological,Flood,Riverine flood,Canada,6,6,2013,2013,4,0,0,100000
+1,2016,Climatological,Wildfire,Forest fire,Canada,5,7,2016,2016,0,0,0,88000
+2,2020,Meteorological,Storm,Convective storm,Canada,6,6,2020,2020,0,0,0,60000
+3,2015,Climatological,Wildfire,Forest fire,Canada,7,7,2015,2015,0,0,36,13036
+4,2020,Hydrological,Flood,Riverine flood,Canada,4,4,2020,2020,1,0,0,12936
+5,2008,Technological,Industrial accident,Explosion,Canada,8,8,2008,2008,2,18,0,12518
+6,2011,Climatological,Wildfire,Forest fire,Canada,5,5,2011,2011,1,0,7000,7000
+7,2014,Hydrological,Flood,Flash flood,Canada,8,8,2014,2014,0,4,0,6904
+8,2005,Hydrological,Flood,Riverine flood,Canada,6,7,2005,2005,4,0,0,5000
+9,2018,Climatological,Wildfire,Forest fire,Canada,7,8,2018,2018,0,0,0,3000
+10,2016,Meteorological,Storm,Convective storm,USA,1,1,2016,2016,50,12,0,85000012
+11,2008,Hydrological,Flood,Riverine flood,USA,6,6,2008,2008,24,148,0,11000148
+12,2008,Meteorological,Storm,Tropical cyclone,USA,9,9,2008,2008,43,0,0,2100000
+13,2018,Meteorological,Storm,Tropical cyclone,USA,9,9,2018,2018,53,0,0,1500000
+14,2007,Climatological,Wildfire,"Land fire (Brush, Bush, Pasture)",USA,10,10,2007,2007,8,64,0,640064
+15,2017,Meteorological,Storm,Tropical cyclone,USA,8,8,2017,2017,88,24,27000,582024
+16,2005,Meteorological,Storm,Tropical cyclone,USA,8,9,2005,2005,1833,0,0,500000
+17,2011,Meteorological,Storm,Tropical cyclone,USA,8,9,2011,2011,46,0,0,370000
+18,2005,Meteorological,Storm,Tropical cyclone,USA,9,10,2005,2005,10,0,0,300000
+19,2018,Climatological,Wildfire,Forest fire,USA,6,12,2018,2018,88,0,0,250000
+20,2011,Climatological,Drought,Drought,Mexico,9,12,2011,2011,0,0,0,2500000
+21,2005,Meteorological,Storm,Tropical cyclone,Mexico,10,10,2005,2005,36,0,0,1954571
+22,2007,Hydrological,Flood,Riverine flood,Mexico,10,11,2007,2007,22,0,0,1600000
+23,2017,Geophysical,Earthquake,Ground movement,Mexico,9,9,2017,2017,98,250,0,1200250
+24,2005,Meteorological,Storm,Tropical cyclone,Mexico,10,10,2005,2005,7,0,300000,1000000
+25,2010,Hydrological,Flood,Riverine flood,Mexico,9,9,2010,2010,25,0,0,1000000
+26,2008,Meteorological,Storm,Tropical cyclone,Mexico,7,7,2008,2008,2,0,0,500000
+27,2011,Meteorological,Storm,Tropical cyclone,Mexico,6,7,2011,2011,22,0,0,300000
+28,2017,Geophysical,Earthquake,Ground movement,Mexico,9,9,2017,2017,369,6000,0,256000
+29,2011,Hydrological,Flood,Riverine flood,Mexico,10,10,2011,2011,0,0,0,250000
+30,2005,Climatological,Drought,Drought,Burundi,1,1,2005,2006,120,0,0,2150000
+31,2007,Complex Disasters,Complex Disasters,Famine,Burundi,2,2,2007,2007,0,0,0,2000000
+32,2009,Climatological,Drought,Drought,Burundi,12,2,2009,2010,0,0,0,180000
+33,2008,Climatological,Drought,Drought,Burundi,9,1,2008,2009,0,0,0,82500
+34,2007,Hydrological,Flood,Riverine flood,Burundi,1,1,2007,2007,4,0,23000,23000
+35,2014,Hydrological,Flood,Flash flood,Burundi,2,3,2014,2014,96,182,12500,12682
+36,2018,Hydrological,Flood,Flash flood,Burundi,1,1,2018,2018,0,0,0,12000
+37,2019,Hydrological,Landslide,Landslide,Burundi,12,12,2019,2019,37,7,0,9942
+38,2009,Hydrological,Flood,Riverine flood,Burundi,4,4,2009,2009,0,0,0,8000
+39,2005,Hydrological,Flood,Flash flood,Burundi,2,2,2005,2005,0,0,5000,5000
+40,2009,Climatological,Drought,Drought,Chad,12,7,2009,2010,0,0,0,2400000
+41,2017,Climatological,Drought,Drought,Chad,3,5,2017,2017,0,0,0,1886800
+42,2012,Climatological,Drought,Drought,Chad,6,2,2012,2013,0,0,0,1600000
+43,2012,Hydrological,Flood,Riverine flood,Chad,7,9,2012,2012,20,0,0,594831
+44,2007,Hydrological,Flood,Riverine flood,Chad,8,9,2007,2007,12,0,0,170000
+45,2010,Hydrological,Flood,Riverine flood,Chad,8,9,2010,2010,24,0,0,144579
+46,2012,Hydrological,Flood,Riverine flood,Chad,9,10,2012,2012,0,0,0,18800
+47,2011,Biological,Epidemic,Bacterial disease,Chad,8,10,2011,2011,433,0,0,16038
+48,2009,Hydrological,Flood,Riverine flood,Chad,8,8,2009,2009,3,0,900,8020
+49,2008,Hydrological,Flood,Riverine flood,Chad,9,9,2008,2008,0,0,0,8000
+50,2009,Climatological,Drought,Drought,Niger,9,3,2009,2010,0,0,0,7900000
+51,2005,Climatological,Drought,Drought,Niger,7,7,2005,2006,0,0,0,3000000
+52,2015,Climatological,Drought,Drought,Niger,4,3,2015,2017,0,0,0,2588128
+53,2017,Climatological,Drought,Drought,Niger,5,6,2017,2017,0,0,0,1131300
+54,2012,Hydrological,Flood,Riverine flood,Niger,7,10,2012,2012,91,0,0,530952
+55,2010,Hydrological,Flood,Riverine flood,Niger,8,8,2010,2010,3,0,0,226611
+56,2013,Hydrological,Flood,Riverine flood,Niger,7,8,2013,2013,32,0,0,165943
+57,2014,Hydrological,Flood,Riverine flood,Niger,6,10,2014,2014,36,0,0,165578
+58,2015,Hydrological,Flood,Riverine flood,Niger,7,10,2015,2015,27,0,0,87037
+59,2009,Hydrological,Flood,Riverine flood,Niger,9,9,2009,2009,3,0,0,79129
+60,2016,Climatological,Drought,Drought,Bolivia,3,12,2016,2016,0,0,0,665000
+61,2007,Hydrological,Flood,Riverine flood,Bolivia,12,2,2007,2008,75,0,0,485000
+62,2013,Climatological,Drought,Drought,Bolivia,1,9,2013,2013,0,0,0,340355
+63,2007,Hydrological,Flood,Riverine flood,Bolivia,1,5,2007,2007,40,0,0,339495
+64,2013,Hydrological,Flood,Riverine flood,Bolivia,10,2,2013,2014,74,0,0,338995
+65,2010,Hydrological,Flood,Riverine flood,Bolivia,1,1,2010,2010,26,0,0,227860
+66,2014,Hydrological,Flood,Riverine flood,Bolivia,10,2,2014,2015,38,0,0,185120
+67,2013,Hydrological,Flood,Riverine flood,Bolivia,1,2,2013,2013,25,0,0,145000
+68,2006,Hydrological,Flood,Riverine flood,Bolivia,1,4,2006,2006,25,21,0,126096
+69,2014,Hydrological,Flood,Riverine flood,Bolivia,1,1,2015,2015,25,0,0,92890
+70,2013,Meteorological,Storm,Tropical cyclone,Philippines,11,11,2013,2013,7354,28689,0,16106870
+71,2012,Meteorological,Storm,Tropical cyclone,Philippines,12,12,2012,2012,1901,2666,0,6246664
+72,2009,Meteorological,Storm,Tropical cyclone,Philippines,9,9,2009,2009,501,529,0,4901763
+73,2008,Meteorological,Storm,Tropical cyclone,Philippines,6,6,2008,2008,644,826,0,4785460
+74,2014,Meteorological,Storm,Tropical cyclone,Philippines,7,7,2014,2014,111,1250,0,4654966
+75,2009,Meteorological,Storm,Tropical cyclone,Philippines,9,10,2009,2009,512,207,0,4478491
+76,2012,Hydrological,Flood,Riverine flood,Philippines,8,8,2012,2012,112,14,0,4451725
+77,2014,Meteorological,Storm,Tropical cyclone,Philippines,12,12,2014,2014,18,916,0,4150400
+78,2006,Meteorological,Storm,Tropical cyclone,Philippines,9,10,2006,2006,228,406,0,3842406
+79,2018,Meteorological,Storm,Tropical cyclone,Philippines,9,9,2018,2018,84,138,0,3800138
+80,2006,Geophysical,Earthquake,Ground movement,Indonesia,5,5,2006,2006,5778,137883,699295,3177923
+81,2009,Geophysical,Earthquake,Ground movement,Indonesia,9,9,2009,2009,1195,1798,0,2501798
+82,2018,Geophysical,Earthquake,Tsunami,Indonesia,9,9,2018,2018,4140,0,0,2000000
+83,2006,Hydrological,Flood,Flash flood,Indonesia,12,1,2006,2007,236,0,0,618486
+84,2018,Geophysical,Earthquake,Ground movement,Indonesia,8,8,2018,2018,564,1584,70000,516927
+85,2019,Hydrological,Flood,Flash flood,Indonesia,12,1,2019,2020,66,110,0,501110
+86,2007,Geophysical,Earthquake,Ground movement,Indonesia,9,9,2007,2007,25,82,36800,459567
+87,2015,Climatological,Wildfire,Forest fire,Indonesia,9,12,2015,2015,19,0,0,409664
+88,2009,Geophysical,Earthquake,Ground movement,Indonesia,9,9,2009,2009,128,1442,0,339792
+89,2017,Hydrological,Flood,Riverine flood,Indonesia,6,6,2017,2017,4,0,75,282420
