@@ -1,4 +1,3 @@
-Country_Key,Country,Continent,Region,Capital,Currency,Birth_Rate_Crude_Per_1000,Population_Total_Count,Death_Rate_Crude_Per_1000,GNI_Per_Capita_USD,Labour_Force_Female_Percent,Labour_Force_Total_Count,Age_Dependency_Ratio_Percent_Working_Age,Age_First_Marriage_Male,Age_First_Marriage_Female,Age_Dependency_Ratio_Old,Age_Dependency_Ratio_Young,Completeness_Birth_Registration_Percent
 0,Canada,North America,North America,Ottawa,CAD,10.6,32243753,7.1,34810,46.63737609,17821886,44.495093,28.7,26.979999999999997,18.95421925,25.54087375,100.0
 1,Canada,North America,North America,Ottawa,CAD,10.9,32571174,7,38510,46.8751721,18030705,44.23699432,28.6,26.6,19.13834588,25.09864844,100.0
 2,Canada,North America,North America,Ottawa,CAD,11.2,32889025,7.1,43090,47.0367127,18379605,44.03477573,28.7,26.979999999999997,19.35344295,24.68133278,100.0

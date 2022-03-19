@@ -3,10 +3,10 @@ CREATE TABLE "Event" (
   "Disaster_Subgroup" varchar,
   "Disaster_Type" varchar,
   "Disaster_Subtype" varchar,
-  "Start_Month" tinyint,
-  "End_Month" tinyint,
-  "Start_Year" smallint,
-  "End_Year" smallint,
+  "Start_Month" int,
+  "End_Month" int,
+  "Start_Year" int,
+  "End_Year" int,
   "Total_Deaths" int,
   "Total_Injuries" int,
   "Total_Homeless" int,
@@ -97,10 +97,10 @@ CREATE TABLE "Education" (
 CREATE TABLE "Month" (
   "Month_Key" int,
   "Name" varchar,
-  "Month_Num" tinyint,
-  "Quarter" tinyint,
-  "Year" smallint,
-  "Decade" tinyint,
+  "Month_Num" int,
+  "Quarter" int,
+  "Year" int,
+  "Decade" int,
   PRIMARY KEY ("Month_Key")
 );
 

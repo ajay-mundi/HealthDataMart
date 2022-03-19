@@ -1,4 +1,3 @@
-Event_Key,Disaster_Subgroup,Disaster_Type,Disaster_Subtype,Start_Month,End_Month,Start_Year,End_Year,Total_Deaths,Total_Injuries,Total_Homeless,Total_Affected
 0,Hydrological,Flood,Riverine flood,6,6,2013,2013,4,0,0,100000
 1,Climatological,Wildfire,Forest fire,5,7,2016,2016,0,0,0,88000
 2,Meteorological,Storm,Convective storm,6,6,2020,2020,0,0,0,60000
