@@ -9,28 +9,30 @@ import numpy as np
 # Extract the data
 
 country_list = ["Bolivia", "Burundi", "Canada", "Chad", "Indonesia", "Mexico", "Niger", "Philippines", "United States"]
-begin_date = 1960
-end_date = 2019
+begin_date = 2005
+end_date = 2020
 nb_dates = end_date - begin_date + 1
 
-attribute_names = ["Adults_Living_With_HIV",
+attribute_names = ["Adults_And_Children_Living_With_HIV",
                     "Adults_Newly_Infected_With_HIV",
+                    "%Births_By_Skilled_Health_Staff",
                     "Capital_Health_Expenditure_%GDP",
                     "DeathByNonCommunicableDiseasePercent",
-                    "Children_Living_With_HIV",
-                    "Children_Newly_Infected_With_HIV",
-                    "Community_Health_Workers_Per1000ppl",
                     "Domestic_General_Health_Expenditure_%GDP",
                     "Hospital_Beds_Per_1000ppl",
                     "Immunization_HepB3_%OneYearOld",
-                    "ImmunizationMeasles%Children12To23Months"
-                    "ImmunizationMeasles%SecondDose"
-                    "%PPL_SpendingMoreThan25PercentOnHealthcare",
-                    "Nurses_Per_1000ppl",
+                    "ImmunizationMeasles%Children12To23Months",
+                    "Number_Under-five_Deaths",
+                    "Nurses_And_Midwives_Per_1000ppl",
                     "Physicians_Per_1000ppl",
                     "Prevalence_of_Anemia_%Non-pregnant",
                     "Prevalence_of_Anemia_%Pregnant",
                     "Prevalence_of_Overweight_%Adult",
+                    "Suicide_Mortality_Rate_per_100000ppl",
+                    "Survival_To_Age_65_Female",
+                    "Survival_To_Age_65_Male",
+                    "Total_Alcohol_Consumption_Per_Capita",
+                    "Tuberculosis_Death_Rate_per_100000ppl"
                     ]
 
 nb_attributes = len(attribute_names)
@@ -76,6 +78,11 @@ health_dimension = health_dimension.drop(0)
 health_dimension.columns = ['Country', 'Date'] + attribute_names
 
 health_dimension.insert(0, "Health_Key",  np.arange(len(health_dimension)))
+
+
+# fill in the missing data
+health_dimension.fillna(method="ffill", inplace=True)
+health_dimension.fillna(method="bfill", inplace=True)
 
 
 # Save it into a new csv file
