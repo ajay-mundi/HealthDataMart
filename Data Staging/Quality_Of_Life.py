@@ -6,7 +6,7 @@ import numpy as np
 
 # Extract the data
 
-country_list = ["Bolivia", "Burundi", "Canada", "Chad", "Indonesia", "Mexico", "Niger", "Philippines", "United States"]
+country_list = ["Bolivia", "Burundi", "Canada", "Chad", "Indonesia", "Mexico", "Niger", "Philippines", "USA"]
 begin_date = 2005
 end_date = 2020
 nb_dates = end_date - begin_date + 1
@@ -65,7 +65,7 @@ QOL_dimension = pd.concat([country_table, QOL_dimension], axis=1, ignore_index=T
 QOL_dimension = QOL_dimension.drop(0)
 
 
-QOL_dimension.columns = ['Country', 'Date'] + attribute_names
+QOL_dimension.columns = ['Country_Ref', 'Date'] + attribute_names
 
 QOL_dimension.insert(0, "QOL_Key",  np.arange(len(QOL_dimension)))
 
