@@ -70,5 +70,9 @@ QOL_dimension.columns = ['Country_Ref', 'Date'] + attribute_names
 QOL_dimension.insert(0, "QOL_Key",  np.arange(len(QOL_dimension)))
 
 
+# fill in the missing data
+#QOL_dimension([]).fillna(method="ffill", inplace=True)
+# QOL_dimension.fillna(method="bfill", inplace=True)
+
 # Save it into a new csv file
 QOL_dimension.to_csv('QOL_dimension.csv', index = False, header=True)
